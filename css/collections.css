@@ -153,6 +153,37 @@ body {
   padding: 0px;
 }
 .main_body{
-  background-color: #dcd;
+  background-color: #ffffff;
   height: 1000px;
+}
+.first_con{
+  background-color: #F1F1F1;
+  height: 45px;
+  padding-top: 10px !important;
+  padding-left: 40px !important;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+.col_link{
+  color: grey;
+  font-size: 15px;
+}
+.l_m{
+  color: grey;
+}
+.l_m:hover{
+  text-decoration: none;
+  color: #862633;
+}
+.scnd_con{
+  background-color: #F7F7F7;
+  height: 100px;
+  padding-top: 45px !important;
+  padding-left: 40px !important;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+.col{
+  font-size: 25px;
+  color: #862633;
 }
