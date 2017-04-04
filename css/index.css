@@ -115,10 +115,11 @@
 }
 .button_mula_2{
 	position: absolute;
-    top: 70px;
+    top: 500px;
     right: 0;
+    text-decoration-color: #3E313C;
 }
 .slogan_wrapper {
 	margin-top: 30px;
-	color: #fff;
+	color: #BD283B;
 }
