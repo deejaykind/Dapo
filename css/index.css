@@ -87,12 +87,13 @@
  }
 
 #box-wrapper{
-	background-image: url("../images/Fashion1.jpg");
+	background-image: url("../images/Fashion.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height:640px;
+	background-attachment: fixed;
+	min-height:690px;
 	margin-top: .5%;
 	margin-right: 1%;
 	margin-left: 1%;
@@ -121,5 +122,5 @@
 }
 .slogan_wrapper {
 	margin-top: 30px;
-	color: #BD283B;
+	color: #9D3242;
 }
