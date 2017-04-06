@@ -141,6 +141,9 @@
 @media (min-width: 767px) {
   .nav-side-menu .menu-list .menu-content {
     display: block;
+    font-family: Museo;
+    font-weight: 100;
+    font-style: Regular;
   }
   #main {
   	width:calc(100% - 300px);
@@ -167,6 +170,9 @@ body {
 .col_link{
   color: grey;
   font-size: 15px;
+  font-family: Museo;
+  font-weight: 100;
+  font-style: Regular;
 }
 .l_m{
   color: grey;
@@ -182,10 +188,20 @@ body {
   padding-left: 40px !important;
   margin-left: -15px !important;
   margin-right: -15px !important;
+  font-family: Museo;
+  font-weight: 100;
+  font-style: Regular;
 }
 .col{
   font-size: 25px;
   color: #862633;
+}
+.spring_s{
+  color: #862633;
+  text-align: center;
+  font-family: Museo;
+  font-weight: 100;
+  font-style: Regular;
 }
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;}
