@@ -87,19 +87,15 @@
  }
 
 #box-wrapper{
-	background-image: url("../images/Fashion.jpg");
+	background-image: url("../images/test.jpg");
+	background-size: 100% auto;
 	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	height:670px;
+	height:635px;
 	margin-top: 1%;
 	margin-bottom: -5%;
 	margin-right: 1%;
 	margin-left: 1%;
-	width: auto 100%;
-	padding:2px;
 }
 .my_but{
 	background-color: #ddd;
@@ -127,5 +123,5 @@
 }
 .slogan_wrapper {
 	margin-top: 30px;
-	color: #9D3242;
+	color: #fff;
 }
