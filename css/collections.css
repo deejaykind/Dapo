@@ -84,6 +84,12 @@ body {
     border-radius: 5px;
     background-color: brown;
 }
+.fa {
+  font-size: 20px !important;
+}
+.fa:hover {
+  color: #862633;
+}
 /*
  * off Canvas sidebar
  * --------------------------------------------------
@@ -110,7 +116,4 @@ body {
     position: absolute;
     top: 0;
   }
-}
-.fa {
-  font-size: 20px;
 }
