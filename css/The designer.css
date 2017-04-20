@@ -124,24 +124,24 @@ footer {
   font-family: Museo; 
 } 
  
-  .uche{
-    font-family: Museo;
-  } 
-  .test {
-     
-    width: 100%;
-    height:  100%;
-    padding:  10px 0 10px 10px; 
-    background-color:  #ffffff;
+.uche{
+  font-family: Museo;
+} 
+
+.test {
+  width: 100%;
+  height:  100%;
+  padding:  10px 0 10px 10px; 
+  background-color:  #ffffff;
 }
+
 .ark {
-    background-image: url(../images/dapo.png);
-    height: 890px;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-size: cover; 
-  
-  }
+  background-image: url(../images/dapo.png);
+  height: 890px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
 
 
 /*
