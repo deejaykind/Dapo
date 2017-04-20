@@ -114,7 +114,13 @@ footer {
 .fatherr{
   padding-left: 0px;
   color: #862633;
-  margin-top: 20px;
+  margin-top: -80px;
+  font-family: Museo; 
+} 
+.fatherrr{
+  padding-left: 0px;
+  color: #000000;
+  margin-top: 0px;
   font-family: Museo; 
 } 
  
