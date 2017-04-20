@@ -16,12 +16,16 @@ body {
   position:relative;
   overflow-y:auto;
   overflow-x:hidden;
-  font-family: Museo;
-}
+  font-family: Museo; 
+  text-decoration:none;
+  }
 #main {
   height:100%;
   overflow:auto;
 }
+ .sara:hover{
+    text-decoration: none;
+ }
 .slider-holder
 {
   width: 800px;
@@ -103,7 +107,8 @@ footer {
 }
 .father{
   padding-left: 0px;
-  color: #862633 
+  color: #862633;
+  margin-top: 50px; 
 
 } 
  .abtt {

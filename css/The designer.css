@@ -16,12 +16,16 @@ body {
   position:relative;
   overflow-y:auto;
   overflow-x:hidden;
-  font-family: Museo;
-}
+  font-family: Museo; 
+  text-decoration:none;
+  }
 #main {
   height:100%;
   overflow:auto;
 }
+ .sara:hover{
+    text-decoration: none;
+ }
 .slider-holder
 {
   width: 800px;
@@ -32,9 +36,6 @@ body {
   margin-top: 0px;
   text-align: center;
   overflow: hidden;
-}
-.sara:hover{
-  text-decoration: none;
 }
 
 .image-holder
@@ -71,7 +72,7 @@ body {
 
 #slider-image-3:target ~ .image-holder
 {
-    left: -1600px;
+    left: - 0px;
 }
 
 .button-holder
@@ -88,7 +89,6 @@ body {
     border-radius: 5px;
     background-color: brown;
 }
- 
 .fa {
   font-size: 20px !important;
 }
@@ -105,6 +105,39 @@ footer {
   color: #FFFFFF;
   font-family: Museo;
 }
+.father{
+  padding-left: 0px;
+  color: #862633;
+  margin-top: 50px;
+  font-family: Museo; 
+} 
+.fatherr{
+  padding-left: 0px;
+  color: #862633;
+  margin-top: 20px;
+  font-family: Museo; 
+} 
+ 
+  .uche{
+    font-family: Museo;
+  } 
+  .test {
+     
+    width: 100%;
+    height:  100%;
+    padding:  10px 0 10px 10px; 
+    background-color:  #ffffff;
+}
+.ark {
+    background-image: url(../images/dapo.jpeg);
+    height: 600px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  
+  }
+
+
 /*
  * off Canvas sidebar
  * --------------------------------------------------
