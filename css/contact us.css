@@ -156,7 +156,6 @@ footer {
   margin-top: 0px;
   font-family: Museo; 
 } 
- 
 .uche{
   font-family: Museo;
 } 
@@ -167,8 +166,25 @@ footer {
   padding:  10px 0 10px 10px; 
   background-color:  #ffffff;
 }
-
-.ark {
+.form_size{
+	width: 500px !important;
+	height: 45px !important;
+	box-shadow: none !important;
+	outline: none !important;
+}
+.size{
+	width: 500px !important;
+	height: 200px !important;
+	box-shadow: none !important;
+	outline: none !important;
+}
+.fm_style{
+	font-family: Museo;	
+}
+.w_size{
+	width: 100% !important;
+}
+/*.ark {
   background-image: url(../images/dapo.png);
   height: 890px;
   background-size: 100% auto;
@@ -176,7 +192,7 @@ footer {
   background-size: cover; 
 }
 
-
+*/
 /*
  * off Canvas sidebar
  * --------------------------------------------------
