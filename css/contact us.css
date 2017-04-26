@@ -107,11 +107,12 @@ footer {
 }
 .first_con{
   background-color: #F1F1F1;
-  height: 65px;
-  padding-top: 35px !important;
+  height: 35px;
+  padding-top: 6px !important;
   padding-left: 40px !important;
   margin-left: -15px !important;
   margin-right: -15px !important;
+  margin-top: 24px;
 }
 .col_link{
   color: grey;
@@ -132,7 +133,7 @@ footer {
   padding-left: 40px !important;
   margin-left: -15px !important;
   margin-right: -15px !important;
-}
+ }
 .col{
   font-size: 25px;
   color: #862633;
@@ -156,7 +157,6 @@ footer {
   margin-top: 0px;
   font-family: Museo; 
 } 
- 
 .uche{
   font-family: Museo;
 } 
@@ -167,8 +167,25 @@ footer {
   padding:  10px 0 10px 10px; 
   background-color:  #ffffff;
 }
-
-.ark {
+.form_size{
+	width: 500px !important;
+	height: 45px !important;
+	box-shadow: none !important;
+	outline: none !important;
+}
+.size{
+	width: 500px !important;
+	height: 200px !important;
+	box-shadow: none !important;
+	outline: none !important;
+}
+.fm_style{
+	font-family: Museo;	
+}
+.w_size{
+	width: 100% !important;
+}
+/*.ark {
   background-image: url(../images/dapo.png);
   height: 890px;
   background-size: 100% auto;
@@ -176,7 +193,7 @@ footer {
   background-size: cover; 
 }
 
-
+*/
 /*
  * off Canvas sidebar
  * --------------------------------------------------
