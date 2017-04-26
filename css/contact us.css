@@ -172,12 +172,14 @@ footer {
 	height: 45px !important;
 	box-shadow: none !important;
 	outline: none !important;
+	border-color: #ccc !important;
 }
 .size{
 	width: 500px !important;
 	height: 200px !important;
 	box-shadow: none !important;
 	outline: none !important;
+	border-color: #ccc !important;
 }
 .fm_style{
 	font-family: Museo;
