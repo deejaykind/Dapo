@@ -37,6 +37,7 @@ body {
   padding-left: 40px !important;
   margin-left: -15px !important;
   margin-right: -15px !important;
+  width: auto !important;
 }
 .col_link{
   color: grey;
@@ -57,6 +58,7 @@ body {
   padding-left: 40px !important;
   margin-left: -15px !important;
   margin-right: -15px !important;
+  width: auto !important;
 }
 .col{
   font-size: 25px;
