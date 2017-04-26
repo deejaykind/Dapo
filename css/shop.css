@@ -308,20 +308,23 @@ color: #000;
   list-style: none;
 }
 .img_div {
-  background-image: url("../img/Number_1.png");
+  background-image: url("../images/image2.JPG");
   height: 400px;
   background-size: 100% auto;
   background-repeat: no-repeat;
   min-height: 400px;
   max-height: 400px;
 }
+.img_div:hover {
+}
 .product_details {
   text-align: center;
+  height: auto;
+  margin-bottom: 20px;
 }
 .product_details h3 {
-  margin: 0 !important;
+  margin: 5px 0px;
   padding: 0 !important;
-  line-height: 40px;
   font-size: 20px;
 }
 .product_details h3 a {
@@ -332,6 +335,27 @@ color: #000;
   color: #222;
   text-decoration: none;
   font-size: 15px;
+}
+.price {
+  display: block;
+  text-align: center;
+}
+.select_option .div {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #ddd;
+  height: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #444444;
+}
+.select_option .div:hover {
+  color: #ddd;
+}
+.select_option:hover{
+  text-decoration: none;
 }
 footer {
   padding: 20px 0px;
