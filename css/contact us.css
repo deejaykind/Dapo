@@ -89,22 +89,6 @@ body {
     border-radius: 5px;
     background-color: brown;
 }
-.fa {
-  font-size: 20px !important;
-}
-.fa:hover {
-  color: #862633;
-}
-.content_before_footer {
-  padding: 30px 0px;
-  color: #000000;
-  font-family: Museo;
-}
-footer {
-  padding: 20px 0px;
-  color: #FFFFFF;
-  font-family: Museo;
-}
 .first_con{
   background-color: #F1F1F1;
   height: 35px;
@@ -137,6 +121,32 @@ footer {
 .col{
   font-size: 25px;
   color: #862633;
+  font-family: Museo;
+}
+.fm_style{
+	font-family: Museo;
+}	
+.style1{
+	font-family: Museo;
+	margin: 20px 0px !important;
+}
+.w_size{
+	width: 100% !important;
+}
+.fa {
+  font-size: 20px !important;
+}
+.fa:hover {
+  color: #862633;
+}
+.content_before_footer {
+  padding: 30px 0px;
+  color: #000000;
+  font-family: Museo;
+}
+footer {
+  padding: 20px 0px;
+  color: #FFFFFF;
   font-family: Museo;
 }
 .father{
@@ -181,13 +191,7 @@ footer {
 	outline: none !important;
 	border-color: #ccc !important;
 }
-.fm_style{
-	font-family: Museo;
-	margin: 20px 0px !important;
-}
-.w_size{
-	width: 100% !important;
-}
+
 /*.ark {
   background-image: url(../images/dapo.png);
   height: 890px;
