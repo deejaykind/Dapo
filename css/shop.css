@@ -314,8 +314,13 @@ color: #000;
   background-repeat: no-repeat;
   min-height: 400px;
   max-height: 400px;
+  transform:scale(0.9);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
 }
 .img_div:hover {
+  -webkit-transform:scale(1);
+  transform:scale(1);
 }
 .product_details {
   text-align: center;
