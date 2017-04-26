@@ -301,6 +301,36 @@ color: #000;
   color: #000000;
   font-family: Museo;
 }
+.first {
+  min-height: 620px;
+  list-style: none;
+}
+.img_div {
+  background-image: url("../img/Number_1.png");
+  height: 400px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  max-height: 400px;
+}
+.product_details {
+  text-align: center;
+}
+.product_details h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 40px;
+  font-size: 20px;
+}
+.product_details h3 a {
+  text-decoration: none;
+  color: #222;
+}
+.product_details .posted_in a {
+  color: #222;
+  text-decoration: none;
+  font-size: 15px;
+}
 footer {
   padding: 20px 0px;
   color: #FFFFFF;
@@ -350,5 +380,3 @@ footer {
         margin: 0 0 20px;
       }
     }
-
- 
