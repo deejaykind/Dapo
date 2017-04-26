@@ -109,9 +109,9 @@ footer {
   background-color: #F1F1F1;
   height: 35px;
   padding-top: 6px !important;
-  padding-left: 40px !important;
+  /*padding-left: 40px !important;
   margin-left: -15px !important;
-  margin-right: -15px !important;
+  margin-right: -15px !important;*/
   margin-top: 24px;
 }
 .col_link{
@@ -130,9 +130,9 @@ footer {
   background-color: #F7F7F7;
   height: 75px;
   padding-top: 25px !important;
-  padding-left: 40px !important;
+  /*padding-left: 40px !important;
   margin-left: -15px !important;
-  margin-right: -15px !important;
+  margin-right: -15px !important;*/
  }
 .col{
   font-size: 25px;
@@ -180,7 +180,8 @@ footer {
 	outline: none !important;
 }
 .fm_style{
-	font-family: Museo;	
+	font-family: Museo;
+	margin: 20px 0px !important;
 }
 .w_size{
 	width: 100% !important;
