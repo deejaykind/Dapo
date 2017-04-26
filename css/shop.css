@@ -57,7 +57,12 @@ body {
   padding-top: 25px !important;
   /*padding-left: 40px !important;
   margin-left: -15px !important;
+<<<<<<< HEAD
   margin-right: -15px !important;*/
+=======
+  margin-right: -15px !important;
+  margin-bottom: 20px;
+>>>>>>> 7533c930554e3ab1232fe4a06473e2aedd9e68b0
   width: auto !important;
 }
 .col{
@@ -308,20 +313,28 @@ color: #000;
   list-style: none;
 }
 .img_div {
-  background-image: url("../img/Number_1.png");
+  background-image: url("../images/image2.JPG");
   height: 400px;
   background-size: 100% auto;
   background-repeat: no-repeat;
   min-height: 400px;
   max-height: 400px;
+  transform:scale(0.9);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.img_div:hover {
+  -webkit-transform:scale(1);
+  transform:scale(1);
 }
 .product_details {
   text-align: center;
+  height: auto;
+  margin-bottom: 20px;
 }
 .product_details h3 {
-  margin: 0 !important;
+  margin: 5px 0px;
   padding: 0 !important;
-  line-height: 40px;
   font-size: 20px;
 }
 .product_details h3 a {
@@ -333,10 +346,33 @@ color: #000;
   text-decoration: none;
   font-size: 15px;
 }
+.price {
+  display: block;
+  text-align: center;
+}
+.select_option .div {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #ddd;
+  height: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #444444;
+}
+.select_option .div:hover {
+  color: #ddd;
+}
+.select_option:hover{
+  text-decoration: none;
+}
 footer {
   padding: 20px 0px;
   color: #FFFFFF;
   font-family: Museo;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 /*
  * off Canvas sidebar
