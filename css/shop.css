@@ -55,10 +55,14 @@ body {
   background-color: #F7F7F7;
   height: 88px;
   padding-top: 25px !important;
-  padding-left: 40px !important;
+  /*padding-left: 40px !important;
   margin-left: -15px !important;
+<<<<<<< HEAD
+  margin-right: -15px !important;*/
+=======
   margin-right: -15px !important;
   margin-bottom: 20px;
+>>>>>>> 7533c930554e3ab1232fe4a06473e2aedd9e68b0
   width: auto !important;
 }
 .col{

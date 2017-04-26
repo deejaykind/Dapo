@@ -22,6 +22,40 @@ body {
   height:100%;
   overflow:auto;
 }
+.first_con{
+  background-color: #F1F1F1;
+  height: 35px;
+  padding-top: 6px !important;
+  /*padding-left: 40px !important;
+  margin-left: -15px !important;
+  margin-right: -15px !important;*/
+  margin-top: 24px;
+}
+.col_link{
+  color: grey;
+  font-size: 15px;
+}
+.l_m{
+  color: grey;
+  font-family: Museo;
+}
+.l_m:hover{
+  text-decoration: none;
+  color: #862633;
+}
+.scnd_con{
+  background-color: #F7F7F7;
+  height: 75px;
+  padding-top: 25px !important;
+  /*padding-left: 40px !important;
+  margin-left: -15px !important;
+  margin-right: -15px !important;*/
+ }
+.col{
+  font-size: 25px;
+  color: #862633;
+  font-family: Museo;
+}
 .slider-holder
 {
   width: 800px;
