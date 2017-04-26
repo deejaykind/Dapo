@@ -158,6 +158,9 @@ ul.rig li {
 .free {
   width: auto;
 }
+.lola{
+  background-color: #F1F1F1;
+}
 .grid_element {
  font-size: 16px; 
  display: inline-block;
@@ -309,7 +312,7 @@ color: #000;
   font-family: Museo;
 }
 .first {
-  min-height: 620px;
+  min-height: 5o20px;
   list-style: none;
 }
 .img_div {
@@ -327,10 +330,86 @@ color: #000;
   -webkit-transform:scale(1);
   transform:scale(1);
 }
+.col_div {
+  background-image: url("../images/image1.JPG");
+  height: 400px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  max-height: 400px;
+  transform:scale(0.9);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.col_div:hover {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+}
+.dol_div {
+  background-image: url("../images/image4.JPG");
+  height: 400px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  max-height: 400px;
+  transform:scale(0.9);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.dol_div:hover {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+}
+.jol_div {
+  background-image: url("../images/image5.JPG");
+  height: 400px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  max-height: 400px;
+  transform:scale(0.9);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.jol_div:hover {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+}
+.kol_div {
+  background-image: url("../images/image6.JPG");
+  height: 400px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  max-height: 400px;
+  transform:scale(0.9);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.kol_div:hover {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+}
+.tol_div {
+  background-image: url("../images/image7.JPG");
+  height: 400px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  max-height: 400px;
+  transform:scale(0.9);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.tol_div:hover {
+  -webkit-transform:scale(1);
+  transform:scale(1);
+}
 .product_details {
   text-align: center;
   height: auto;
   margin-bottom: 20px;
+  font-family: Museo;
 }
 .product_details h3 {
   margin: 5px 0px;
