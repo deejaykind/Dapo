@@ -158,6 +158,9 @@ ul.rig li {
 .free {
   width: auto;
 }
+.lola{
+  background-color: #F1F1F1;
+}
 .grid_element {
  font-size: 16px; 
  display: inline-block;
@@ -309,7 +312,7 @@ color: #000;
   font-family: Museo;
 }
 .first {
-  min-height: 620px;
+  min-height: 5o20px;
   list-style: none;
 }
 .img_div {
@@ -331,6 +334,7 @@ color: #000;
   text-align: center;
   height: auto;
   margin-bottom: 20px;
+  font-family: Museo;
 }
 .product_details h3 {
   margin: 5px 0px;
