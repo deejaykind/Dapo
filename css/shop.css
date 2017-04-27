@@ -374,7 +374,7 @@ color: #000;
 .jol_div:hover {
   -webkit-transform:scale(1);
   transform:scale(1);
-}
+} 
 .kol_div {
   background-image: url("../images/image6.JPG");
   height: 400px;
