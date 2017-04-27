@@ -103,6 +103,8 @@
 	font-family: Museo;
 	border-radius: 5px;
 	text-transform: uppercase;
+	/*position: relative;
+	top: -600px;*/
 }
 .my_but:hover {
 	text-decoration: none;

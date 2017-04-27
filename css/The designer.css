@@ -170,13 +170,16 @@ footer {
 }
 
 .ark {
-  background-image: url(../images/dapo.png);
-  height: 890px;
+  /*background-image: url(../images/dapo.png);*/
+  /*height: 890px;*/
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-size: cover; 
 }
-
+.pg_img{
+  /*height: 890px;*/
+  width: 611px;
+}
 
 /*
  * off Canvas sidebar

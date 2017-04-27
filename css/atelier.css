@@ -1,4 +1,4 @@
-body,html,.row-offcanvas {
+bbody,html,.row-offcanvas {
   height:100%;
 }
 
@@ -147,12 +147,14 @@ footer {
 
 } 
  .abtt {
-    background-image: url(../images/model.png);
-    height: 750px;
+    /*background-image: url(../images/model.png);
+    height: 750px;*/
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-size: cover; 
-  
+  }
+  .pg_img{
+    width: 611px;
   }
   .uche{
     font-family: Museo;
