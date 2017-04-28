@@ -96,17 +96,12 @@
 	margin-bottom: -5%;
 	margin-right: 1%;
 	margin-left: 1%;
-
 }
 #box-wrapper img{
 	 width:100% !important;
     height:100% !important;
     display:block;
-
 }
-.pg_img{
-    width: 2000px;
-  }
 .my_but{
 	background-color: #ddd;
 	padding: 15px 35px 15px 35px;
