@@ -17,6 +17,43 @@ body {
   padding-top: 50px;
   width: auto;
 }
+/*Thumnails styles*/
+
+.thumbnails{
+  margin-bottom: -15px
+}
+
+.thumbnails a{
+  float: left;
+  width: 25%;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.thumbnails img{
+  display: block;
+  transition: all .2s ease-in-out;
+  width: 95%;
+}
+
+.thumbnails:hover img {
+  opacity: .6;
+}
+
+.thumbnails img:hover{
+  opacity: 1;
+  transform: scale(1) rotate(2deg);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .5)
+}
+img {
+  /*width: 100%;*/
+}
+.thumbnails a:nth-child(4n){
+  margin-right: 0px;
+}
+.thumbnails img:nth-child(4n){
+  width: 100%;
+}
 
 #sidebar {
   width: inherit;
@@ -25,7 +62,7 @@ body {
   background-color:#f5f5f5;
   float: left;
   height:100%;
-  position:relative;
+  position:relative; 
   overflow-y:auto;
   overflow-x:hidden;
   font-family: Museo;

@@ -80,14 +80,14 @@
     max-width: 100%;
  }
  .img_div {
-     vertical-align: top;
-     height: 1000px;
+    vertical-align: top;
+    height: 1000px;
     max-width: 100%;
     background-image: url("../img/model.png");
  }
 
 #box-wrapper{
-	background-image: url("../images/test.jpg");
+	background-image: url("../images/two.jpg");
 	background-size: 100% auto;
 	background-size: cover;
 	background-repeat: no-repeat;
