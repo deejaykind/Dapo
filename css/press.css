@@ -70,12 +70,12 @@ img {
 
 .first_con{
   background-color: #F1F1F1;
-  height: 65px;
-  padding-top: 35px !important;
-  padding-left: 40px !important;
+  height: 35px;
+  padding-top: 6px !important;
+  /*padding-left: 40px !important;
   margin-left: -15px !important;
-  margin-right: -15px !important;
-  width: auto !important;
+  margin-right: -15px !important;*/
+  margin-top: 24px;
 }
 .col_link{
   color: grey;
@@ -91,18 +91,12 @@ img {
 }
 .scnd_con{
   background-color: #F7F7F7;
-  height: 88px;
+  height: 75px;
   padding-top: 25px !important;
   /*padding-left: 40px !important;
   margin-left: -15px !important;
-<<<<<<< HEAD
   margin-right: -15px !important;*/
-=======
-  margin-right: -15px !important;
-  margin-bottom: 20px;
->>>>>>> 7533c930554e3ab1232fe4a06473e2aedd9e68b0
-  width: auto !important;
-}
+ }
 .col{
   font-size: 25px;
   color: #862633;
