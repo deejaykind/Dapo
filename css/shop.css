@@ -433,7 +433,7 @@ color: #000;
 }
 .tol_div_1:hover {
   -webkit-transform:scale(1);
-  transform:scale(1);
+  transform:scale(1); 
 }
 .product_details {
   text-align: center;
@@ -476,6 +476,22 @@ color: #000;
 .select_option:hover{
   text-decoration: none;
 }
+.pagination {
+  width: 100%;
+  text-align: center;
+}
+.pagination a {
+    color: black;
+    text-align: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
 footer {
   padding: 20px 0px;
   color: #FFFFFF;
