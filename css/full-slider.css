@@ -192,6 +192,12 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+.fill_28 {
+    background-image:url('../images/c_26.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
 @media(max-width:991px) {
