@@ -8,16 +8,25 @@
 	margin: 55px 0px;
 	text-align: center;
 	padding: 130px 0px;
+	font-family: Museo;
 }
 .icon-check-sign {
 	font-size: 60px;
-	color: green
+	color: #119A0E;
 }
 button{
 	border-radius: 5px;
-	background-color: purple;
+	background-color: #119A0E;
 	border: none;
 	padding: 10px 60px;
 	color: #fff;
 	text-transform: uppercase;
+	font-family: Museo;
+}
+a:hover{
+	text-decoration: none;
+	color: #FAFAFA;
+}
+a{
+	color: #FAFAFA;
 }
