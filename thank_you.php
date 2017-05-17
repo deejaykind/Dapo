@@ -27,7 +27,7 @@
 				
 				<div class="buk_2">
 					<button>
-						<a href="index.html">Back To Home</a>
+						<a href="index.php">Back To Home</a>
 					</button>
 				</div>
 			</div>	
