@@ -49,37 +49,9 @@
     </div><!--/.navbar -->
 
     <div class="row-offcanvas row-offcanvas-left">
-      <div id="sidebar" class="sidebar-offcanvas">
-          <div class="col-md-12">
-            <h3></h3>
-            <h1></h1>
-            <ul class="nav nav-pills nav-stacked" style="padding-top: 20px;">
-              <li><a href="index.html">HOME</a></li>
-              <li class="active"><a href="collections.html">COLLECTIONS</a></li>
-              <li  data-toggle="collapse" data-target="#new" class="collapsed">
-                <a href="#">
-                  ABOUT US <span class="caret"></span>
-                </a>
-              </li>
-              <ul class="sub-menu collapse" id="new">
-                <li>
-                  <a href="atelier.html" class="sara">
-                    Dapo Desina Atelier
-                  </a>
-                </li>
-                <li>
-                  <a href="The designer.html" class="sara">
-                    The Designer
-                  </a>
-                </li>
-              </ul>
-              <li><a href="Shop.html">SHOP</a></li>
-              <li><a href="press.html">PRESS</a></li>
-              <li><a href="get_a_quote.html">GET A QUOTE</a></li>
-              <li><a href="contact_us.html">CONTACT US</a></li>
-            </ul>
-          </div>
-      </div>
+      <?php
+        include ("header.php");
+      ?>
       <div id="main">
         <div class="col-md-12">
           <p class="visible-xs">
@@ -194,15 +166,9 @@
             </a>
           </header>
            
-          <footer style="margin-top: ; background-color: #000;">
-              <div class="text-center footerr">
-               <p style="margin-bottom: 0px;">&copy Copyright
-                <a href="index.html">Dapo Desina 2016.</a>
-                 All right reserved. Powered by 
-                <a href="http:effluxcompany.com" target="blank">Efflux</a>
-              </p>
-             </div>
-          </footer>
+          <?php
+            include ("footer.php");
+          ?>
         </div>
       </div>
     </div><!--/row-offcanvas -->

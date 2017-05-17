@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DapoDesina|Contact Us</title>
+    <title>DapoDesina|Get a Quote</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/contact_us.css">
+    <link rel="stylesheet" type="text/css" href="css/get_a_quote.css">
     <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.css">
@@ -73,8 +73,8 @@
                 </ul>
                 <li><a href="Shop.html">SHOP</a></li>
                 <li><a href="press.html">PRESS</a></li>
-                <li><a href="get_a_quote.html">GET A QUOTE</a></li>
-                <li class="active"><a href="contact_us.html">CONTACT US</a></li>
+                <li class="active"><a href="get_a_quote.html">GET A QUOTE</a></li>
+                <li><a href="contact_us.html">CONTACT US</a></li>
             </ul>
           </div>
         </div>
@@ -86,57 +86,53 @@
             </p>
             <div class="header1">
               <div class="first_con">
-                <p class="col_link"><a class="l_m" href="index.html">DapoDesina &gt; </a>Contact Us</p> 
+                <p class="col_link"><a class="l_m" href="index.html">DapoDesina &gt; </a>Get a Quote</p> 
               </div>  
             </div>
 
             <div class="header2">
               <div class="scnd_con">
-                <p class="col">Contact Us</p>  
+                <p class="col">Get a Quote</p>  
               </div>  
             </div>
 
-            <div class="">
+            <div class="" style="width: auto">
               <div class="row">
-                <div class="col-md-6">
-                  <div class="w_size">
-                    <h2 class="fm_style"><strong>Get in Touch</strong></h2>
-                    <h5 class="fm_style"><b>Please fill out the quick form and we will be in touch with lightening speed.</b>
-                    </h5>
-                    <form>
-                      <div class="form-group">
-                        <label class="fm_style" for="name"><strong>Name:</strong></label>
-                        <input type="name" class="form-control form_size" id="name" placeholder="Enter name">
-                      </div>
-                      <div class="form-group">
-                        <label class="fm_style" for="email"><strong>Email:</strong></label>
-                        <input type="email" class="form-control form_size" id="email" placeholder="Enter email">
-                      </div>
-                      <div class="form-group">
-                        <label class="fm_style" for="message"><strong>Message:</strong></label>
-                        <textarea placeholder="Message" id="comments" class="form-control size" name="comments"></textarea>
-                      </div>
-                      <!-- <div class="checkbox">
-                        <label class="fm_style"><input type="checkbox"> Remember me</label>
-                      </div> -->
-                      <button type="submit" class="btn btn-primary style1">Submit</button>
-                    </form>
+                <h3 class="fm_style" style="text-align: center;">
+                  Kindly Fill the form appropraiately we will get back to you as soon as possible.
+                </h3>
+                <form action="process_quote_form" method="POST">
+                  <div class="col-md-6 ">
+                    <div class="_size">
+                        <div class="form-group">
+                          <label class="fm_style" for="name"><strong>Surname:</strong></label>
+                          <input type="name" class="form-control form_size" name="Surname" placeholder="Enter Surname" required>
+                        </div>
+                        <div class="form-group">
+                          <label class="fm_style" for="name"><strong>Firstname:</strong></label>
+                          <input type="name" class="form-control form_size" name="Firstname" placeholder="Enter name" required>
+                        </div>
+                        <div class="form-group">
+                          <label class="fm_style" for="email"><strong>Email:</strong></label>
+                          <input type="email" class="form-control form_size" name="email" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                          <label class="fm_style" for="email"><strong>Phone Number:</strong></label>
+                          <input type="text" class="form-control form_size" name="Phone" placeholder="Enter Phone Number" required>
+                        </div>
+                    </div>
                   </div>
-                </div>
 
-                <div class="col-md-6">
-                  <div class="w_size">
-                    <h3 class="fm_style"><strong>Connect with us:</strong></h3>
-                    <p class="fm_style">For support or any questions:<br>
-                      Email us at ~ ibidapo.lawal@gmail.com<br>or info@dapodesina.com
-                    </p>
-                    <p class="fm_style">Old fashioned phone calls work too ~ <br>+2348098306662</p>
-                    <br>
-                    <h3 class="fm_style"><strong>Dapo Desina NG</strong></h3>
-                    <p class="fm_style">4, Funke Zainab Usman Street, Lekki Phase 1.<br> Same road as MTN Project Fame Studio, <br>Victoria Island, Lagos.</p>
+                  <div class="col-md-6 ">
+                    <div class="form-group look">
+                      <label class="fm_style look" for="message"><strong>Message:</strong></label>
+                      <textarea placeholder="Message" id="comments" class="form-control size" name="comments"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary look style1">Send Now</button>
                   </div>
-                </div>
+                </form>
               </div>
+              <br><br><br><br>
             </div>
 
             <footer style="margin-top: ; background-color: #000;">
