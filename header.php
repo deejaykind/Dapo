@@ -3,7 +3,7 @@
     <h3></h3>
     <h1></h1>
     <ul class="nav nav-pills nav-stacked" style="padding-top: 20px;">
-      <li><a href="index.html">HOME</a></li>
+      <li><a href="index.php">HOME</a></li>
       <li class="active"><a href="collections.html">COLLECTIONS</a></li>
       <li  data-toggle="collapse" data-target="#new" class="collapsed">
         <a href="#">
@@ -22,10 +22,10 @@
           </a>
         </li>
       </ul>
-      <li><a href="Shop.html">SHOP</a></li>
-      <li><a href="press.html">PRESS</a></li>
-      <li><a href="get_a_quote.html">GET A QUOTE</a></li>
-      <li><a href="contact_us.html">CONTACT US</a></li>
+      <li><a href="Shop.php">SHOP</a></li>
+      <li><a href="press.php">PRESS</a></li>
+      <li><a href="get_a_quote.php">GET A QUOTE</a></li>
+      <li><a href="contact_us.php">CONTACT US</a></li>
     </ul>
   </div>
 </div>
