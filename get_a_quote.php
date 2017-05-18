@@ -101,7 +101,7 @@
                 <h3 class="fm_style" style="text-align: center;">
                   Kindly Fill the form appropraiately we will get back to you as soon as possible.
                 </h3>
-                <form action="process_quote_form" method="POST">
+                <form action="process_quote_form.php" method="POST">
                   <div class="col-md-6 ">
                     <div class="_size">
                         <div class="form-group">
@@ -126,7 +126,7 @@
                   <div class="col-md-6 ">
                     <div class="form-group look">
                       <label class="fm_style look" for="message"><strong>Message:</strong></label>
-                      <textarea placeholder="Message" id="comments" class="form-control size" name="comments"></textarea>
+                      <textarea placeholder="Message" id="comments" class="form-control size" name="comments" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary look style1">Send Now</button>
                   </div>

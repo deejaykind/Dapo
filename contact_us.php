@@ -103,7 +103,7 @@
                   <h2 class="fm_style"><strong>Get in Touch</strong></h2>
                   <h5 class="fm_style"><b>Please fill out the quick form and we will be in touch with lightening speed.</b>
                   </h5>
-                  <form action="process_quote_form" method="POST">
+                  <form action="process_contact_form.php" method="POST">
                     <div class="form-group">
                       <label class="fm_style" for="name"><strong>Name:</strong></label>
                       <input type="name" class="form-control form_size" name="name" placeholder="Enter name">

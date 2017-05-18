@@ -4,10 +4,10 @@
 	$emailaddress = $_POST['email'];
 	$number = $_POST['Phone'];
 	$message = $_POST['comments'];
-	$formcontent = "From: $Surname \n First Name: $Firstname \n Email: $emailaddress \n Phone: $number \n Message: $message";
-	$recipient = "info@effluxcompany.com";
-	$subject = "Efflux Contact Form";
-	$mailheader = "From: $email \r\n";
+	$formcontent = "From: $Firstname \n Email: $emailaddress \n Phone: $number \n Message: $message";
+	$recipient = "adisa.ahmed881@gmail.com";
+	$subject = "Dapodesina Quote Form";
+	$mailheader = "From: $emailaddress \r\n";
 
 	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 	header("Location: thank_you.php");
