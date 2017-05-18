@@ -46,73 +46,73 @@
       </div><!--/.nav-collapse -->
     </div><!--/.navbar -->
 
-      <div class="row-offcanvas row-offcanvas-left">
-        <?php
-          include ("header.php");
-        ?>
+    <div class="row-offcanvas row-offcanvas-left">
+      <?php
+        include ("header.php");
+      ?>
 
-        <div id="main">
-          <div class="col-md-12">
-            <p class="visible-xs">
-              <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas" style="margin-top: 40px; position: fixed; z-index: 1;"><i class="glyphicon glyphicon-chevron-left" style="font-size: 20px;"></i></button>
-            </p>
-            <div class="header1">
-              <div class="first_con">
-                <p class="col_link"><a class="l_m" href="index.html">DapoDesina &gt; </a>Get a Quote</p> 
-              </div>  
-            </div>
-
-            <div class="header2">
-              <div class="scnd_con">
-                <p class="col">Get a Quote</p>  
-              </div>  
-            </div>
-
-            <div class="" style="width: auto">
-              <div class="row">
-                <h3 class="fm_style" style="text-align: center;">
-                  Kindly Fill the form appropraiately we will get back to you as soon as possible.
-                </h3>
-                <form action="process_quote_form.php" method="POST">
-                  <div class="col-md-6 ">
-                    <div class="_size">
-                        <div class="form-group">
-                          <label class="fm_style" for="name"><strong>Surname:</strong></label>
-                          <input type="name" class="form-control form_size" name="Surname" placeholder="Enter Surname" required>
-                        </div>
-                        <div class="form-group">
-                          <label class="fm_style" for="name"><strong>Firstname:</strong></label>
-                          <input type="name" class="form-control form_size" name="Firstname" placeholder="Enter name" required>
-                        </div>
-                        <div class="form-group">
-                          <label class="fm_style" for="email"><strong>Email:</strong></label>
-                          <input type="email" class="form-control form_size" name="email" placeholder="Enter email" required>
-                        </div>
-                        <div class="form-group">
-                          <label class="fm_style" for="email"><strong>Phone Number:</strong></label>
-                          <input type="text" class="form-control form_size" name="Phone" placeholder="Enter Phone Number" required>
-                        </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 ">
-                    <div class="form-group look">
-                      <label class="fm_style look" for="message"><strong>Message:</strong></label>
-                      <textarea placeholder="Message" id="comments" class="form-control size" name="comments" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary look style1">Send Now</button>
-                  </div>
-                </form>
-              </div>
-              <br><br><br><br>
-            </div>
-
-            <?php
-              include ("footer.php");
-            ?>
+      <div id="main">
+        <div class="col-md-12">
+          <p class="visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas" style="margin-top: 40px; position: fixed; z-index: 1;"><i class="glyphicon glyphicon-chevron-left" style="font-size: 20px;"></i></button>
+          </p>
+          <div class="header1">
+            <div class="first_con">
+              <p class="col_link"><a class="l_m" href="index.html">DapoDesina &gt; </a>Get a Quote</p> 
+            </div>  
           </div>
+
+          <div class="header2">
+            <div class="scnd_con">
+              <p class="col">Get a Quote</p>  
+            </div>  
+          </div>
+
+          <div class="" style="width: auto">
+            <div class="row">
+              <h3 class="fm_style" style="text-align: center;">
+                Kindly Fill the form appropraiately we will get back to you as soon as possible.
+              </h3>
+              <form action="process_quote_form.php" method="POST">
+                <div class="col-md-6 ">
+                  <div class="_size">
+                      <div class="form-group">
+                        <label class="fm_style" for="name"><strong>Surname:</strong></label>
+                        <input type="name" class="form-control form_size" name="Surname" placeholder="Enter Surname" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="fm_style" for="name"><strong>Firstname:</strong></label>
+                        <input type="name" class="form-control form_size" name="Firstname" placeholder="Enter name" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="fm_style" for="email"><strong>Email:</strong></label>
+                        <input type="email" class="form-control form_size" name="email" placeholder="Enter email" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="fm_style" for="email"><strong>Phone Number:</strong></label>
+                        <input type="text" class="form-control form_size" name="Phone" placeholder="Enter Phone Number" required>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 ">
+                  <div class="form-group look">
+                    <label class="fm_style look" for="message"><strong>Message:</strong></label>
+                    <textarea placeholder="Message" id="comments" class="form-control size" name="comments" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary look style1">Send Now</button>
+                </div>
+              </form>
+            </div>
+            <br><br><br><br>
+          </div>
+
+          <?php
+            include ("footer.php");
+          ?>
         </div>
       </div>
+    </div>
 
 
     <script>

@@ -21,7 +21,7 @@
 					<tbody>
 						<tr>
 							<td>
-								<a href="collections.html" class="my_but">	
+								<a href="collections.php" class="my_but">	
 									ENTER
 								</a>
 							</td>
@@ -51,7 +51,7 @@
 								<tbody>
 									<tr>
 										<td>
-											<a href="collections.html" class="my_but">	
+											<a href="collections.php" class="my_but">	
 												ENTER
 											</a>
 										</td>
