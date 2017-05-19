@@ -21,7 +21,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-          <a href="index.html">
+          <a href="index.php">
             <img class="main_logo" src="images/logo.png" alt="brand_logo" width="165px" height="73px">
           </a>
       </div>
@@ -57,7 +57,7 @@
           </p>
           <div class="header1">
             <div class="first_con">
-              <p class="col_link"><a class="l_m" href="index.html">DapoDesina &gt; </a>Atelier</p> 
+              <p class="col_link"><a class="l_m" href="index.php">DapoDesina &gt; </a>Atelier</p> 
             </div>  
           </div>
 
