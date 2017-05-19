@@ -134,6 +134,9 @@ body {
   color: #000000;
   font-family: Museo;
 }
+ #pgAbout #mnuAbout,
+  /*#pgOther #mnuOther*/ {
+    background-color: red;}
 footer {
   padding: 20px 0px;
   color: #FFFFFF;

@@ -24,7 +24,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-          <a href="index.html">
+          <a href="index.php">
             <img class="main_logo" src="images/logo.png" alt="brand_logo" width="165px" height="73px">
           </a>
       </div>
@@ -63,7 +63,7 @@
           <div class="" style="width: auto;">
             <div class="header1">
               <div class="first_con">
-                <p class="col_link"><a class="l_m" href="index.html">DapoDesina &gt; </a>Shop</p> 
+                <p class="col_link"><a class="l_m" href="index.php">DapoDesina &gt; </a>Shop</p> 
               </div>  
             </div>
             
@@ -107,7 +107,7 @@
                     </span>
                   </div>
 
-                  <a href="get_a_quote.html" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -136,7 +136,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="get_a_quote.html" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -165,7 +165,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="get_a_quote.html" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -194,7 +194,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="get_a_quote.html" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -225,7 +225,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="get_a_quote.html" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -254,7 +254,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="get_a_quote.html" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -283,7 +283,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="get_a_quote.html" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -312,7 +312,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="get_a_quote.html" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -321,10 +321,10 @@
               </div>
             </div>
             <div class="pagination">
-              <a href="Shop.html">&laquo;</a>
-              <a class="active" href="Shop.html">1</a>
-              <a href="shop2.html">2</a>
-              <a href="shop2.html">&raquo;</a>
+              <a href="Shop.php">&laquo;</a>
+              <a class="active" href="Shop.php">1</a>
+              <a href="shop_2.php">2</a>
+              <a href="shop_2.php">&raquo;</a>
             </div>
                
             <?php

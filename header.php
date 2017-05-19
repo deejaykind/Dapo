@@ -4,8 +4,8 @@
     <h1></h1>
     <ul class="nav nav-pills nav-stacked" style="padding-top: 20px;">
       <li><a href="index.php">HOME</a></li>
-      <li class="active"><a href="collections.php">COLLECTIONS</a></li>
-      <li  data-toggle="collapse" data-target="#new" class="collapsed">
+      <li id=""><a href="collections.php">COLLECTIONS</a></li>
+      <li id="" data-toggle="collapse" data-target="#new" class="collapsed">
         <a href="#">
           ABOUT US <span class="caret"></span>
         </a>
