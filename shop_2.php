@@ -106,7 +106,7 @@
                     </span>
                   </div>
 
-                  <a href="" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -135,7 +135,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -164,7 +164,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -193,7 +193,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -224,7 +224,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -253,7 +253,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -282,7 +282,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>
@@ -311,7 +311,7 @@
                   <div class="price">
                   </div>
 
-                  <a href="" class="select_option">
+                  <a href="get_a_quote.php" class="select_option">
                     <div class="div product_details">
                       Get A Quote
                     </div>

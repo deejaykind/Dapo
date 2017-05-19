@@ -177,19 +177,10 @@ footer {
   padding:  10px 0 10px 10px; 
   background-color:  #ffffff;
 }
-.form_size{
-	width: 500px !important;
-	height: 45px !important;
-	box-shadow: none !important;
-	outline: none !important;
-	border-color: #ccc !important;
-}
-.size{
-	width: 500px !important;
-	height: 200px !important;
-	box-shadow: none !important;
-	outline: none !important;
-	border-color: #ccc !important;
+#comments {
+  height: 200px;
+  min-height: 200px;
+  max-height: 200px;
 }
 
 /*
